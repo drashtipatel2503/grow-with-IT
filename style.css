@@ -622,7 +622,7 @@ nav li a{
 	nav li{
 		display:none;
 	}
-	.gallery img{
+	.gallery li img{
 		width:120%;
 		height:50%;
 
