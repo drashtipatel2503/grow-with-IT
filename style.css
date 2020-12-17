@@ -38,9 +38,9 @@
 	  25%{
 		  color : violet;
 	  }50%{
-		  color : purple;
+		  color : rgb(243, 26, 109);
 	  }75%{
-		  color : green;
+		  color : cyan;
 	  }100%{
 		  color : deepskyblue;
 	  }
@@ -542,7 +542,7 @@ nav{
 	padding-bottom: 2%;
 }
 #cmp , #su, #tech , #framework,#inter , #p, #m {
-	background-image: url(../images/a.gif);
+	background-color:#EBECF0;
 }
 
 nav li{
@@ -749,7 +749,21 @@ i{
 .bv{
 	margin-right:0.011%;
 }
-
+#su .row{
+	margin:0px;
+	margin-top:1%;
+}
+nav .colors{
+	font-size: 300%;
+	font-family: "cursuive";
+	font-style:italic;font-weight: bold;
+	text-shadow: 1px 1px pink;
+}
+.mm{
+	font-size: 200%;
+	font-family: "Comic Sans";
+	text-shadow: 1px 1px pink;
+}
 
 
 
@@ -762,8 +776,33 @@ i{
 #p nav{
 	width:100%;
 }
-
-  
+nav{
+	background-color: #030303;
+}
+.footer .row{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color: #EBECF0;
+}
+.footer .c{
+	background-color: black
+}
+.footer{
+	margin-bottom:0px
+}
+body{
+	padding-bottom: 0px;
+}
+.footer .row {
+	margin:-1em;
+	padding:-1em;
+}
+.footer .row h2{
+	margin:0px;
+	padding:0px;
+}
   leetcode.com
   exer
   codeforces
