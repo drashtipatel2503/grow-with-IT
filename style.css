@@ -630,6 +630,16 @@ nav li a{
 
 	
 }
+.pr img{
+	transform: rotateX(180deg);
+	transform: rotateY(180deg);
+	
+}#framework button{
+	display:flex;
+	flex-wrap:wrap;
+	width:100%;
+	justify-content: center;
+}
 button{
 	margin-bottom: 2%;
 }
