@@ -246,9 +246,10 @@
   }
   .f1, .f2, .f3, .f4, .f5,.g2, .g7, .f12, .f13, .f6, .f14, .f7, .g14, .g15, .g16, .f8, .f9, .g13, .g3, .g1, .g8, .f10, .f11{
 	  background-color:black;
-	  color:#ffff00;
+	  color:whitesmoke;
 	  margin-top:-7rem;
 	  width:80%;
+	  border:50%;
   
   }
   .gallery h3{
@@ -287,12 +288,14 @@
 	padding-bottom: 0px;;
 }
 
-.f1, .f2, .f3, .f4, .f5,.g2, .g7, .f12, .f13, .f6, .f14, .f7, .g14, .g15, .g16, .f8, .f9, .g13, .g3, .g1, .g8, .f10, .f11{
+.f1, .f2, .f3, .f4, .f5,.g2,.f, .g7, .f12, .f13, .f6, .f14, .f7, .g14, .g15, .g16, .f8, .f9, .g13, .g3, .g1, .g8, .f10, .f11{
 	background-color:black;
-	color:#ffff00;
-	margin-top:-7rem;
+	color:whitesmoke;
+	margin-top:-20rem;
 	width:80%;
 	z-index:3;
+	opacity:0.8;
+	margin-left:3%;
 }
 .gallery h3{
 
