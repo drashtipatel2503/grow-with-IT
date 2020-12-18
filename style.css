@@ -244,17 +244,13 @@
 	  height:250px;
 	  z-index: 0;
   }
-  .f1, .f2, .f3, .f4, .f5,.g2, .g7, .f12, .f13, .f6, .f14, .f7, .g14, .g15, .g16, .f8, .f9, .g13, .g3, .g1, .g8, .f10, .f11{
+  .f1, .f2, .f3,.g21, .f4, .f5,.g2, .g7, .f12, .f13, .f6, .f14, .f7, .g14, .g15, .g16, .f8, .f9, .g13, .g3, .g1, .g8, .f10, .f11{
 	  background-color:black;
 	  color:whitesmoke;
 	  margin-top:-7rem;
 	  width:80%;
 	  border:50%;
   
-  }
-  .gallery h3{
-  
-	  text-align: right;
   }
 
   .gallery .title{
@@ -287,8 +283,11 @@
 	margin-bottom: 2px;
 	padding-bottom: 0px;;
 }
+.act {
+	color:white;
+}
 
-.f1, .f2, .f3, .f4, .f5,.g2,.f, .g7, .f12, .f13, .f6, .f14, .f7, .g14, .g15, .g16, .f8, .f9, .g13, .g3, .g1, .g8, .f10, .f11{
+.f1,.g21, .f2, .f3, .f4, .f5,.g2,.f, .g7, .f12, .f13, .f6, .f14, .f7, .g14, .g15, .g16, .f8, .f9, .g13, .g3, .g1, .g8, .f10, .f11{
 	background-color:black;
 	color:whitesmoke;
 	margin-top:-20rem;
@@ -299,7 +298,7 @@
 }
 .gallery h3{
 
-	text-align: right;
+	text-align: center;
 }
 #p .row{
 	padding-left:2%;
@@ -818,6 +817,19 @@ body{
 
 #framework button{
 	margin-top:3%;
+}
+.colors {
+	font-size:300%;
+}
+#p li{
+	margin:0.2%;
+}
+.footer li a{
+	font-size:150%;
+}
+.footer a{
+	font-size:150%;
+}
 }
   leetcode.com
   exer
