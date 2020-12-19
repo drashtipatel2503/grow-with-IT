@@ -33,6 +33,8 @@
    
      <i class="fa fa-bars bar" id="bar" ></i>
    <ul id="shl">
+     
+    <i class="fa fa-times" id="cross"></i>
      <li><a class="act" href="index.html">HOME</a></li>
      <li><a href="pages/tech.html">TECHNOLOGIES</a></li>
      <li><a href="pages/framework.html">FRAMEWORKS</a></li>
@@ -42,6 +44,7 @@
        <li><a href="pages/inter.html">INTERVIEW</a></li>
        <li><a href="pages/startup.html">START UPS</a></li>
        <li><a href="pages/aboutus.html">ABOUT US</a></li>
+       
    </ul>
  </nav>
  
@@ -639,13 +642,26 @@
 
   </script>
   <script>      
-    $("document").ready(function(){
-      
 
-    $("#bar").click(function(){
-      $("nav li").css('display', 'block');
-    });
+$("document").ready(function(){
+        
 
+        $("#bar").click(function(){
+          $("nav li").css('display', 'block');
+          $("#cross").css('visibility', 'visible');
+          $("#bar").css('visibility','hidden');
+        });
+  
+        
+        $("#cross").click(function(){
+          $("nav li").css('display', 'none');
+          $("#cross").css('visibility', 'hidden');
+          $("#bar").css('visibility','visible');
+        });
+  
+  
+  
+      });
 
 </script>
   

@@ -26,6 +26,7 @@
      
        <i class="fa fa-bars bar" id="bar" ></i>
      <ul id="shl">
+      <i class="fa fa-times" id="cross"></i>
        <li><a href="../index.html">HOME</a></li>
        <li><a class="act" href="tech.html">TECHNOLOGIES</a></li>
        <li><a href="framework.html">FRAMEWORKS</a></li>
@@ -503,17 +504,24 @@ Average salary: $82,965
     });
 </script>
 <script>
-      
-    $("document").ready(function(){
-      
 
-    $("#bar").click(function(){
-      $("nav li").css('display', 'block');
-    });
+$("document").ready(function(){
+        
 
-
-
-  });
-
-  </script>
+        $("#bar").click(function(){
+          $("nav li").css('display', 'block');
+          $("#cross").css('visibility', 'visible');
+          $("#bar").css('visibility','hidden');
+        });
+  
+        
+        $("#cross").click(function(){
+          $("nav li").css('display', 'none');
+          $("#cross").css('visibility', 'hidden');
+          $("#bar").css('visibility','visible');
+        });
+  
+  
+  
+      });  </script>
 </html>

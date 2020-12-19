@@ -836,6 +836,16 @@ body{
 a:hover{
 	color:purple;
 }
+#cross{
+	color:red;
+	position:fixed;
+	top: 0;right:0;
+	margin-top:3%;
+	margin-right: 2%;
+	font-size: 320%;
+	visibility: hidden;
+	
+}
   leetcode.com
   exer
   codeforces

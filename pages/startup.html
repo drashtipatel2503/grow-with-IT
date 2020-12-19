@@ -29,6 +29,7 @@
         <span class="colors">GRO<span class="mm">W</span>ITH IT</span>
        <i class="fa fa-bars bar" id="bar" ></i>
      <ul id="shl">
+        <i class="fa fa-times" id="cross"></i>
        <li><a href="../index.html">HOME</a></li>
        <li><a href="tech.html">TECHNOLOGIES</a></li>
        <li><a href="framework.html">FRAMEWORKS</a></li>
@@ -688,18 +689,26 @@ This successful Indian startup is one of the largest pharmacy ainrregators in In
         });
     </script>
     <script>
-      
-        $("document").ready(function(){
-          
   
+  $("document").ready(function(){
+        
+
         $("#bar").click(function(){
           $("nav li").css('display', 'block');
+          $("#cross").css('visibility', 'visible');
+          $("#bar").css('visibility','hidden');
+        });
+  
+        
+        $("#cross").click(function(){
+          $("nav li").css('display', 'none');
+          $("#cross").css('visibility', 'hidden');
+          $("#bar").css('visibility','visible');
         });
   
   
   
       });
-  
       </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </html>
